@@ -1,6 +1,8 @@
 package org.zalando.planb.provider.realms;
 
-import org.zalando.planb.provider.ClientData;
+import org.zalando.planb.provider.dto.ClientData;
+import org.zalando.planb.provider.exceptions.realms.ClientRealmAuthenticationException;
+import org.zalando.planb.provider.exceptions.realms.ClientRealmAuthorizationException;
 
 import java.util.Optional;
 import java.util.Set;

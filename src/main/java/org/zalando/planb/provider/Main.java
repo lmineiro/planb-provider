@@ -9,7 +9,9 @@ import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
-import org.zalando.planb.provider.realms.UpstreamRealmProperties;
+import org.zalando.planb.provider.config.properties.ScopeProperties;
+import org.zalando.planb.provider.config.properties.UpstreamRealmProperties;
+import org.zalando.planb.provider.config.properties.RealmProperties;
 
 import java.security.Security;
 

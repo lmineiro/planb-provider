@@ -1,5 +1,8 @@
 package org.zalando.planb.provider.realms;
 
+import org.zalando.planb.provider.exceptions.realms.UserRealmAuthenticationException;
+import org.zalando.planb.provider.exceptions.realms.UserRealmAuthorizationException;
+
 import java.util.Map;
 import java.util.Set;
 

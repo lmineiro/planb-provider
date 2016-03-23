@@ -27,8 +27,8 @@ realm:
     - "/employees"
     - "/customers"
   userImpl:
-    /employees: org.zalando.planb.provider.realms.UpstreamUserRealm
-    /customers: org.zalando.planb.provider.realms.CustomerUserRealm
+    /employees: org.zalando.planb.provider.realms.impl.UpstreamUserRealm
+    /customers: org.zalando.planb.provider.realms.impl.CustomerUserRealm
 
 cassandra:
   keyspace: provider

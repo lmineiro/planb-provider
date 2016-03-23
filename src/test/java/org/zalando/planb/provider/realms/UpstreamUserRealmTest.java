@@ -5,11 +5,11 @@ import com.google.common.collect.ImmutableSet;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
-import org.zalando.planb.provider.RestException;
-import org.zalando.planb.provider.realms.UpstreamRealmProperties;
-import org.zalando.planb.provider.realms.UpstreamTokenResponse;
-import org.zalando.planb.provider.realms.UpstreamUserRealm;
-import org.zalando.planb.provider.realms.UserRealmAuthenticationException;
+import org.zalando.planb.provider.api.dto.UpstreamTokenResponse;
+import org.zalando.planb.provider.exceptions.RestException;
+import org.zalando.planb.provider.exceptions.realms.UserRealmAuthenticationException;
+import org.zalando.planb.provider.realms.impl.UpstreamUserRealm;
+import org.zalando.planb.provider.config.properties.UpstreamRealmProperties;
 
 import java.util.Map;
 

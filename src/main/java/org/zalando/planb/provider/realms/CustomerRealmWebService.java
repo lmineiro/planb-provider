@@ -1,5 +1,7 @@
 package org.zalando.planb.provider.realms;
 
+import org.zalando.planb.provider.api.dto.CustomerResponse;
+
 import javax.jws.WebMethod;
 import javax.jws.WebParam;
 import javax.jws.WebService;

@@ -1,11 +1,14 @@
 package org.zalando.planb.provider.realms;
 
-import org.zalando.planb.provider.*;
+import org.zalando.planb.provider.dto.ClientData;
+import org.zalando.planb.provider.exceptions.NotFoundException;
+import org.zalando.planb.provider.exceptions.realms.ClientRealmAuthenticationException;
+import org.zalando.planb.provider.exceptions.realms.ClientRealmAuthorizationException;
 
 import java.util.Set;
 
 import static java.util.stream.Collectors.toSet;
-import static org.zalando.planb.provider.realms.ClientRealmAuthenticationException.*;
+import static org.zalando.planb.provider.exceptions.realms.ClientRealmAuthenticationException.*;
 
 public interface ClientManagedRealm extends ClientRealm {
 
